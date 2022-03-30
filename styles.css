@@ -1,0 +1,176 @@
+p
+        {
+            color: black;
+            font-family: Verdana, Geneva, sans-serif;  
+                     
+        }
+body
+        {
+            background-color:white;
+            color:white;
+        }
+#mid
+         {
+            text-align: center;
+         }
+.mycls
+         {
+           font-family: Tahoma, Geneva, sans-serif;
+         }
+/*:not(p)
+         {
+            background: #e7f4e4;
+         }*/
+a:visited 
+         {
+            color:black;
+         }
+a:hover 
+         {
+            color: salmon;
+         }
+
+ul 
+         {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+             color: black;
+             
+         }
+li
+         {
+             float:right;
+             margin-left: 40px;
+             font-family: initial;
+         }
+li a 
+         {
+           display: inline-block;
+           text-align: center;
+           padding: 14px 20px;
+           text-decoration: none;
+           color: #000;
+         }   
+#pofile {
+text-align: center;
+color: blanchedalmon;
+
+}
+img{
+    border-radius: 60%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: 1px;
+    display: block;
+    margin-top: 65px;
+    border: 5px solid black;
+    position:relative;
+    height: 350px;
+
+}
+.wraparound{
+    float: left;
+}
+#div1{
+    box-shadow: 0.5rem 0.5rem black,-0.5rem 0.5rem #ccc;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 50px;
+    background-color:whitesmoke;
+    margin-left: 200px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    
+}  
+#div2{
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 50px;
+    background-color:whitesmoke;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 30%;
+    margin-right: 150%;
+    text-align: center;
+    border-radius: 10px;
+}             
+    input{
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+    }  
+    fieldset{
+        background-color: white;
+        border: 3px solid black;
+    }
+    legend{
+        background-color: grey;
+        color: white;
+        padding: 5px 10px;
+    }
+    footer{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        background-color: #252936;
+        text-align: center;
+        display: block;
+        color: #f1f1f1;
+        height: 250px;;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        background-image: url(../images/back2.jpg);
+        height: 600px;
+      }
+      
+      .flex-container > div {
+        background-color: #252936;
+        width: 500px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 50px;
+        height: 300px;
+        margin-top: 200px;
+        color: #f1f1f1;
+        padding: 18px;
+        
+      }
+      .fa{
+          padding: 5px;
+          font-size: 20px;
+          width: 35px;
+          text-decoration: none;
+          margin: 5px 2px;
+          margin: 10px;
+      }
+      .fa-facebook {
+        color: white;
+      }
+      
+      .fa-twitter {
+        color: white;
+      }
+      
+      .fa-google {
+        color: white;
+      }
+      
+      .fa-linkedin {
+        color: white;}
+      .fa-instagram{
+         color: #f1f1f1;
+        }
+        .area {
+          display: grid;
+          gap: 3rem;
+          grid-template-columns: repeat(3, 1fr);
+        }
+       
